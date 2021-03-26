@@ -44,12 +44,19 @@
         <url>http://18.220.154.70:8081/artifactory/libs-release-local</url>
     </repository>	
 </distributionManagement>
--->
-	
+
 	<scm>
 		<connection>scm:git:git@github.com/chennakesavulukummari/samplejavacode.git</connection>
 		<developerConnection>scm:git:git@github.com/chennakesavulukummari/samplejavacode.git</developerConnection>
 		<url>git@github.com/chennakesavulukummari/samplejavacode.git</url>
+		<tag>HEAD</tag>
+	</scm>
+-->
+	
+	<scm>
+		<connection>scm:git:https://github.com/chennakesavulukummari/samplejavacode.git</connection>
+		<developerConnection>scm:git:https://github.com/chennakesavulukummari/samplejavacode.git</developerConnection>
+		<url>https://github.com/chennakesavulukummari/samplejavacode.git</url>
 		<tag>HEAD</tag>
 	</scm>
 
