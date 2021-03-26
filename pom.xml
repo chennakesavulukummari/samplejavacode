@@ -47,9 +47,9 @@
 -->
 	
 	<scm>
-		<connection>scm:git:git@gitlab.com:cloudbinary/codewithck.git</connection>
-		<developerConnection>scm:git:git@gitlab.com:cloudbinary/codewithck.git</developerConnection>
-		<url>git@gitlab.com:cloudbinary/codewithck.git</url>
+		<connection>scm:git:git@github.com/chennakesavulukummari/samplejavacode.git</connection>
+		<developerConnection>scm:git:git@github.com/chennakesavulukummari/samplejavacode.git</developerConnection>
+		<url>git@github.com/chennakesavulukummari/samplejavacode.git</url>
 		<tag>HEAD</tag>
 	</scm>
 
