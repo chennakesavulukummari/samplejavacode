@@ -29,7 +29,7 @@ pipeline {
                 } 
             }
         }
-        stage('Stage-5 : Install') { 
+       /* stage('Stage-5 : Install') { 
             steps {
                 withMaven(maven : 'maven'){
                     sh 'mvn install -DskipTests'
@@ -66,6 +66,6 @@ pipeline {
             steps{
                 sh 'curl --retry-delay 10 --retry 5 "http://192.168.29.67:8080/codewithck"' 
             }
-        }
+        }*/
     }
 }
