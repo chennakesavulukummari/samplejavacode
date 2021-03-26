@@ -2,10 +2,6 @@ pipeline {
     agent any 
       
     stages {
-        stage('Prepare') {
-              git url: 'https://github.com/chennakesavulukummari/samplejavacode.git', branch: 'master'
-              mvnHome = tool 'maven'
-               }
         stage('Stage-1 : Clean') { 
             steps {
                 withMaven(maven : 'maven'){
