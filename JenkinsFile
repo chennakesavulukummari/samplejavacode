@@ -11,47 +11,6 @@ pipeline {
                 sh 'mvn validate'
             }
         }
-        stage('STEP-3 : compile') {
-            steps {
-                sh 'mvn compile'
-            }
-        }
-        stage('STEP-4 : Test') {
-            steps {
-                sh 'mvn test'
-            }
-        }
-        stage('STEP-5 : Install') {
-            steps {
-                sh 'mvn install'
-            }
-        }
-        stage('STEP-6 : Verify') {
-            steps {
-                sh 'mvn verify'
-            }
-        }
-        stage('STEP-7 : Package') {
-            steps {
-                sh 'mvn package'
-            }
-        }
-        /*
-        stage('STEP-8 : Deploy an Artifact to Artifactory Manager i.e. Nexus/Jfrog') {
-            steps {
-                sh 'mvn deploy'
-            }
-        }
-        stage('STEP-9 : Deployment - Deploy a Artifact devworld.war file to Tomcat Server') {
-            steps {
-                sh 'curl -u admin:Azure@2021 -T target/**.war "http://3.16.160.151:8080/manager/text/deploy?path=/devworld&update=true"'
-            }
-        }
-        stage('STEP-10 : SmokeTest') {
-            steps {
-                sh 'curl --retry-delay 10 --retry 5 "http://3.16.160.151:8080/devworld"'
-            }
-        }    */    
     }
     post { 
         always { 
