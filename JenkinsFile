@@ -50,7 +50,7 @@ pipeline {
             steps {
                 sh 'curl --retry-delay 10 --retry 5 "http://192.168.1.104:8080/devops"'
             }
-        }    */    
+        }        
     }
     post { 
         always { 
