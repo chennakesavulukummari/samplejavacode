@@ -30,7 +30,7 @@
         <sonar.login>4a3dc9dedabe9121c190fe4a39cf5e107e7e7ec7</sonar.login>
 -->
 	</properties>	
-
+<!--
 <distributionManagement>
     <snapshotRepository>
         <id>snapshot</id>
@@ -38,7 +38,7 @@
         <url>http://192.168.1.105:8082/artifactory/snapshot/</url>
     </snapshotRepository>
 </distributionManagement>
-<!--
+
 	<scm>
 		<connection>scm:git:git@github.com/chennakesavulukummari/samplejavacode.git</connection>
 		<developerConnection>scm:git:git@github.com/chennakesavulukummari/samplejavacode.git</developerConnection>
